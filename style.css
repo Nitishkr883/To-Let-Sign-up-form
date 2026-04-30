@@ -1,0 +1,94 @@
+body{
+    background-image: url(1181872.jpg) ;
+    background-size:cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+}
+h1{
+    text-align: center;
+}
+.form{
+    color: white;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgba(255,255,255,0.3);
+    background-color: transparent;
+    backdrop-filter: blur(35px);
+    padding:20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px rgb(43, 0, 43);
+}
+.inputb{
+    background-color:transparent;
+    width: 90%;
+    height: 50px
+}
+input{
+    align-content: center;
+    padding:15px 15px 15px 15px;
+    width: 100%;
+    height: 90%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+button{
+    width: 492px;
+    height: 100%;
+    background-color: #fff;
+    color: rgb(100, 16, 103);
+    opacity: 0.7;
+    font-size: 30px;
+    border-radius:40px ;
+    border: 2px solid rgba(50, 8, 59, 0.3);
+
+}
+label{
+    position: relative;
+    top: -30px;
+    left:30px;
+}
+/* input:focus~label , input:valid~label{
+    transform: translateY(-20%) scale(0.8);
+
+} */
+form input{
+    width:100%;
+    border-radius: 40px;
+    background: transparent ;
+    color: white;
+    padding:0 1.7em;
+}
+form i{
+    position: relative;
+    left: 472px;
+    top: -45px;
+}
+form a{
+    color: white;
+}
+form button:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+ .inputb input:focus + label,
+.inputb input:not(:placeholder-shown) + label {
+    top: -50px;
+    left: 15px;
+    font-size: 12px;
+    background-color: rgb(117, 40, 134);
+    padding: 2px 8px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.input:focus{
+    border: 2px solid rgba(177, 101, 177, 0.3);
+}
+input:focus{
+     border: 2px solid rgb(85, 14, 14);
+}
