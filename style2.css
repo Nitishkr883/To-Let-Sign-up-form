@@ -1,0 +1,7 @@
+body{
+    background-color: wheat;
+}
+h1:hover{
+    color: rgb(255, 115, 139);
+    background-color: rgb(251, 209, 131);
+}
